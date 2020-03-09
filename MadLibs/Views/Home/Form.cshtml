@@ -2,25 +2,49 @@
 <html>
   <head>
     <meta charset='utf-8'>
-    <title>Enter Your Information</title>
+    <title>Enter Your Madlib Details</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <style type="text/css">
+        body { 
+          background-color: #ffebe6;
+          font-size: 2em;
+        }
+        .btn {
+          font-size: 2em;
+        }
+    </style>
   </head>
   <body>
-    <h1>Fill in your name and your city:</h1>
-    <form action="/result" method="post">
-     <label for="noun">Enter a noun.</label>
-     <input id="noun" name="noun" type="text">
-     <label for="verb">Enter a verb.</label>
-     <input id="verb" name="verb" type="text">
-     <label for="noun2">Enter a noun again.</label>
-     <input id="noun2" name="noun2" type="text">
-     <label for="verb2">Enter a verb again.</label>
-     <input id="verb2" name="verb2" type="text">
-     <label for="adjective">Enter a adjective.</label>
-     <input id="adjective" name="adjective" type="text">
-     <label for="exclamation">Enter a exclamation.</label>
-     <input id="exclamation" name="exclamation" type="text">
-     <button type="submit">Create Madlib!</button>
-    </form>
+    <div class="container">
+      <h1>Fill in the madlib information:</h1>
+      <form action="/result" method="post">
+        <div class="form-group">
+          <label for="noun">Enter a noun.</label>
+          <input id="noun" name="noun" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">Enter a verb.</label>
+          <input id="verb" name="verb" type="text">
+        </div>
+        <div class="form-group">
+          <label for="noun2">Enter a noun again.</label>
+          <input id="noun2" name="noun2" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb2">Enter a verb again.</label>
+          <input id="verb2" name="verb2" type="text">
+        </div>
+        <div class="form-group">
+          <label for="adjective">Enter a adjective.</label>
+          <input id="adjective" name="adjective" type="text">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">Enter a exclamation.</label>
+          <input id="exclamation" name="exclamation" type="text">
+        </div>
+
+        <button class="btn btn-info" type="submit">Create Madlib!</button>
+      </form>
+    </div>
   </body>
 </html>
