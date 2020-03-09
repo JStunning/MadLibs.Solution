@@ -8,6 +8,11 @@
 
 FULL DESCRIPTION HERE
 
+## Description of what we worked on 3/9/20
+
+- Reviewed weekend reading
+- MadLibs application
+
 ## Setup/Installation Requirements
 
 - Clone the repo to your desktop
@@ -19,12 +24,15 @@ FULL DESCRIPTION HERE
 
 ## Specs
 
-- User will do a thing and get a result.
-  - Sample input:
-  - Expected output:
-- User will do a thing and get a result.
-  - Sample input:
-  - Expected output:
+- User can input words into a form.
+  - Sample input: User inputs a noun, "dog".
+  - Expected output: No output until form is submitted.
+- User can submit form to be processed.
+  - Sample input: User clicks the "Create MadLib" button.
+  - Expected output: The form disappears, and the user's responses are displayed in a madlib on screen.
+- User's responses will determine the madlib story
+  - Sample input: User had inputted "dog" and clicked submit
+  - Expected output: When the madlib story appears, the word "dog" replaces the noun blank in the sentence.
 
 ## Known Bugs
 
