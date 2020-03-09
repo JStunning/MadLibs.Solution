@@ -6,18 +6,12 @@ namespace MadLibs.Controllers
   public class HomeController : Controller
   {
     [Route("/")]
-    // The line above is a route decorator -- it overrides needing to go to home/goodbye, instead just /goodbye
-    public string Landing() { return "This is the landing page!"; }
-
-    [Route("/form")]
     public ActionResult Form() { return View(); }
 
     [Route("/result")]
-    public ActionResult Result(string name, string city)
+    public ActionResult Result(string noun, string verb, string adjective, string noun2, string verb2, string exclamation)
     {
-      MadLibGame madLib = new MadLibGame("DefaultName");
-      madLib.Name = name;
-      madLib.City = city;
+      MadLibGame madLib = new MadLibGame(noun, verb, adjective, noun2, verb2, exclamation);
       return View(madLib);
     }
   }

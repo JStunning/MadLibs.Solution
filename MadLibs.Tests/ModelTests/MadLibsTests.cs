@@ -9,14 +9,14 @@ namespace MadLibs.Tests
     [TestMethod]
     public void MadLibGameConstructor_CreateMadLibGame_MadLibGame()
     {
-      MadLibGame madLib = new MadLibGame("hat", "run", "happy", "tool", "smack", "OOF!");
+      MadLibGame madLib = new MadLibGame("hat", "run", "happy", "tool", "smack", "OOF");
       Assert.AreEqual(typeof(MadLibGame), madLib.GetType());
     }
 
     [TestMethod]
     public void MadLibGameConstructor_CreateMadLibGame_MadLibGame()
     {
-      MadLibGame madLib = new MadLibGame("hat", "run", "happy", "tool", "smack", "OOF!");
+      MadLibGame madLib = new MadLibGame("hat", "run", "happy", "tool", "smack", "OOF");
       string resultNoun = madLib.Noun;
       string resultNoun2 = madLib.Noun2;
       string resultVerb = madLib.Verb;
@@ -29,8 +29,7 @@ namespace MadLibs.Tests
       Assert.AreEqual("happy", resultVerb);
       Assert.AreEqual("tool", resultVerb2);
       Assert.AreEqual("smack", resultAdjective);
-      Assert.AreEqual("OOF!", resultExclamation);
-
+      Assert.AreEqual("OOF", resultExclamation);
     }
   }
 }
