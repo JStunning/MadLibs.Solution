@@ -14,21 +14,21 @@ namespace MadLibs.Tests
     }
 
     [TestMethod]
-    public void MadLibGameConstructor_CreateMadLibGame_MadLibGame()
+    public void MadLibGameConstructor_CreateMadLibGame_Strings()
     {
       MadLibGame madLib = new MadLibGame("hat", "run", "happy", "tool", "smack", "OOF");
       string resultNoun = madLib.Noun;
-      string resultNoun2 = madLib.Noun2;
       string resultVerb = madLib.Verb;
-      string resultVerb2 = madLib.Verb2;
       string resultAdjective = madLib.Adjective;
+      string resultNoun2 = madLib.Noun2;
+      string resultVerb2 = madLib.Verb2;
       string resultExclamation = madLib.Exclamation;
 
       Assert.AreEqual("hat", resultNoun);
-      Assert.AreEqual("run", resultNoun2);
-      Assert.AreEqual("happy", resultVerb);
-      Assert.AreEqual("tool", resultVerb2);
-      Assert.AreEqual("smack", resultAdjective);
+      Assert.AreEqual("run", resultVerb);
+      Assert.AreEqual("happy", resultAdjective);
+      Assert.AreEqual("tool", resultNoun2);
+      Assert.AreEqual("smack", resultVerb2);
       Assert.AreEqual("OOF", resultExclamation);
     }
   }
