@@ -12077,9 +12077,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/mad-libs/MadLibs/ProjectName.csproj",
-      "projectName": "ProjectName",
-      "projectPath": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/mad-libs/MadLibs/ProjectName.csproj",
+      "projectUniqueName": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/mad-libs/MadLibs/MadLibs.csproj",
+      "projectName": "MadLibs",
+      "projectPath": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/mad-libs/MadLibs/MadLibs.csproj",
       "packagesPath": "/Users/Sarah Schwartz/.nuget/packages/",
       "outputPath": "/Users/Sarah Schwartz/Desktop/EPICODUS/Projects/mad-libs/MadLibs/obj/",
       "projectStyle": "PackageReference",

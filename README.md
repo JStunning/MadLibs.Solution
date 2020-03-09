@@ -1,17 +1,19 @@
 # Mad Libs
 
-#### A digital Mad Libs game using ASP.NET Core MVC, Current Version: 03.09.20
+#### A digital Mad Libs game using C# and ASP.NET Core MVC, Current Version: 03.09.20
 
 #### By Sarah "Sasa" Schwartz, and Jack Dunning
 
 ## Description
 
-FULL DESCRIPTION HERE
+A digital Mad Libs game using C# and ASP.NET Core MVC. The mad lib is food themed and allows the user to input various nouns, verbs, etc. to be displayed in the resulting text.
 
 ## Description of what we worked on 3/9/20
 
-- Reviewed weekend reading
+- Reviewed weekend reading and coded along
 - MadLibs application
+- Clean up our githubs and rename/reorganize projects
+- Went through old projects (particularly Friday project) to convert to .NET Core MVC framework
 
 ## Setup/Installation Requirements
 
