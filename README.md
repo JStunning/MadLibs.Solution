@@ -1,8 +1,8 @@
-# TITLE OF PROJECT
+# Mad Libs
 
-#### Short description, Current Version: 02.20.2020
+#### A digital Mad Libs game using ASP.NET Core MVC, Current Version: 03.09.20
 
-#### By Sarah "Sasa" Schwartz
+#### By Sarah "Sasa" Schwartz, and Jack Dunning
 
 ## Description
 
@@ -17,10 +17,10 @@ FULL DESCRIPTION HERE
 ## Specs
 
 - User will do a thing and get a result.
-  - Sample input: 
+  - Sample input:
   - Expected output:
 - User will do a thing and get a result.
-  - Sample input: 
+  - Sample input:
   - Expected output:
 
 ## Known Bugs
