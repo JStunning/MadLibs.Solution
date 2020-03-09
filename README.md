@@ -10,9 +10,12 @@ FULL DESCRIPTION HERE
 
 ## Setup/Installation Requirements
 
-- ?
-- ?
-- ?
+- Clone the repo to your desktop
+- From the root folder \$ cd MadLibs
+- \$ dotnet restore
+- \$ dotnet run
+- The app should host on http://localhost:5000
+- Open this link in your browser to use the app!
 
 ## Specs
 
@@ -30,7 +33,7 @@ FULL DESCRIPTION HERE
 ## Technologies Used
 
 - C#
-- .NET
+- ASP .NET Core MVC
 
 ### License
 
